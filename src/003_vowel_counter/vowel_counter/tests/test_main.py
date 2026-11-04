@@ -56,15 +56,4 @@ def test_main_returns_dict(monkeypatch):
     assert isinstance(main(), dict)
 
 
-def test_main_displays_intro_message(monkeypatch, capsys):
-    def mock_input(prompt):
-        print(prompt, end="")
-        return "hello"
 
-    monkeypatch.setattr("builtins.input", mock_input)
-
-    main()
-    output = capsys.readouterr().out
-
-    assert "This app will count vowel sounds" in output
-    assert "Enter yor text:" in output

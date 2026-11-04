@@ -10,3 +10,5 @@ def multiplication_table(size : int = 10):
         table.append(row)
 
     return table
+
+print(multiplication_table(5))

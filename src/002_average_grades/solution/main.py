@@ -9,6 +9,7 @@ def main():
 
         if grade.lower() in ("done", "d"):
             break
+        
 
         grades.append(float(grade))
 
