@@ -1,3 +1,4 @@
+from .cryptographer import encrypt, decrypt
 def main():
     
     print(" Do you want to encrypt or decrypt your text ? ")
