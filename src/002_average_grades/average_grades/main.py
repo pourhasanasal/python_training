@@ -15,7 +15,6 @@ def main():
         except ValueError:
             print("only grade or 'finish' for stop")
        
-
     if len(grades) == 0:
         return "no grades entered"
     
