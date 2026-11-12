@@ -19,7 +19,7 @@ def caesar_cipher(text , key):
             result = result + chr(number)
 
         else:
-            resulte = result + char
+            result = result + char
             #اگر فاصله و نقطه و هرچیزی جز حرف بود بدون تغییر میگذاریم
 
     return result
