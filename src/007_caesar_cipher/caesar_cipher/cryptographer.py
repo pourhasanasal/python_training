@@ -6,7 +6,7 @@ def caesar_cipher(text , key):
         if char.isupper():
             number= ord(char) - ord("A")
             #چون خود Aهم از 65 شروع میشه و باید همون محاسبات را انجام دهیم 
-            number = (adad +key ) % 26
+            number = (number +key ) % 26
             result = result + chr(number + ord("A"))
 
         elif char.islower():
